@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+#first-paragraph {
+    font-size: larger;
+}
+
+.list {
+    background-color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
