@@ -49,6 +49,7 @@
     padding: 10px 20px;
     border: none;
     transform: scale(0.8);
+    transition: transform 0.1s;
 }
 
 /* Task 4: Simple Loading Spinner */
