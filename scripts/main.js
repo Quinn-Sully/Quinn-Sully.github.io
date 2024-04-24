@@ -34,9 +34,9 @@ for (let i=1; i<=10; i++){
     //console.log("i = " + i);
     factorial = i;
     //console.log("factorial = "+ factorial);
-    //for (let j=i; j>=1; j--){
-        //factorial = factorial * j;
-        //console.log("j factorial = " + factorial);
-    //}
-    console.log(i + "squared = " + factorial);
+    for (let j=i; j>=1; j--){
+        factorial = factorial * j;
+        console.log("j factorial = " + factorial);
+    }
+    console.log(i + " factorial = " + factorial);
 }
