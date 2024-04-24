@@ -29,13 +29,14 @@ console.log(total);
 
 // Task 5
 console.log("Task 5");
+let factorial = 1
 for (let i=1; i<=10; i++){
     //console.log("i = " + i);
-    let factorial = i;
+    factorial = i;
     //console.log("factorial = "+ factorial);
     //for (let j=i; j>=1; j--){
         //factorial = factorial * j;
         //console.log("j factorial = " + factorial);
-    }
+    //}
     console.log(i + "squared = " + factorial);
 }
