@@ -29,8 +29,9 @@ console.log(total);
 
 // Task 5
 console.log("Task 5");
-let factorial = 0
+let factorial = 1
 for (let i=1; i<=10; i++){
+    factorial = i;
     //console.log("i = " + i);
     //console.log("factorial = "+ factorial);
     for (let j=i; j>=2; j--){
