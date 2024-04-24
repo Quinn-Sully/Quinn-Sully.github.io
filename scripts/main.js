@@ -37,7 +37,7 @@ for (let i=1; i<=10; i++){
     //console.log("factorial = "+ factorial);
     for (let j=i; j>=1; j--){
         loops = loops + 1
-        factorial = i * (j-loops);
+        factorial = factorial * (i-loops);
     }
     console.log(i + " factorial = " + factorial);
 }
