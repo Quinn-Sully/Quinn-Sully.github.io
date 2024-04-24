@@ -35,5 +35,5 @@ for (let i=1; i<=10; i++){
     for (let j=i; j>=2; j--){
         factorial = factorial * (j-1);
     }
-    console.log(i + " factorial = " + factorial);
+    console.log(i + "! = " + factorial);
 }
