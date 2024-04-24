@@ -29,14 +29,15 @@ console.log(total);
 
 // Task 5
 console.log("Task 5");
-let factorial = 1
+let factorial = 0
+let loops = 0
 for (let i=1; i<=10; i++){
+    loops = 0;
     //console.log("i = " + i);
-    factorial = i;
     //console.log("factorial = "+ factorial);
     for (let j=i; j>=1; j--){
-        factorial = factorial * j;
-        console.log("j factorial = " + factorial);
+        loops = loops + 1
+        factorial = i * (j-loops);
     }
     console.log(i + " factorial = " + factorial);
 }
