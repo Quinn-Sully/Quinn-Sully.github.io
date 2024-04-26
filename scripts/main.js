@@ -13,7 +13,7 @@ console.log('Blastoff!')
 
 // Task 3
 console.log("Task 3------------------------------------------");
-for (let i=1; i<=50; i=i+2){
+for (let i=1; i<=50; i+=2){
     console.log(i);
 }
 
@@ -83,7 +83,7 @@ console.log(emparr9);
 
 let emparr91 = [];
 for (i=0; i<=9; i++){
-    if (i==0 || i==1){ //just a lil logic
+    if (i==0 || i==1){ //just a lil || logic
         emparr91.push(i);
     }
     if (i>=2) {
