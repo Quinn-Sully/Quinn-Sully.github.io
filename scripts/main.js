@@ -81,6 +81,17 @@ for (i=1; i<=10; i++){
 }
 console.log(emparr9);
 
+let emparr91 = [];
+for (i=0; i<=10; i++){
+    if (i=0 || i=1){
+        emparr91.push(i);
+    }
+    if (i>2) {
+        emparr91.push(emparr91.at(-1) + emparr91.at(-2));
+    }
+}
+console.log("new method: " emparr91);
+
 // Task 10
 console.log("Task 10");
 let emparr10 = [];
