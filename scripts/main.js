@@ -37,3 +37,52 @@ for (let i=1; i<=10; i++){
     }
     console.log(i + "! = " + factorial);
 }
+
+// Task 6
+console.log("Task 6");
+let arr = [3,1,4,1,5];
+for (i=0; i<arr.length; i++){
+    console.log(arr[i]);
+}
+
+// Task 7
+console.log("Task 7");
+let arr = [3,1,4,1,5];
+for (i=1; i<=arr.length; i++){
+    console.log(arr.at(-i));
+}
+
+// Task 8
+console.log("Task 8");
+let emparr8 = [];
+for (i=1; i<=10; i++){
+    emparr8.push(i*i*i);
+}
+console.log(emparr8);
+
+// Task 9
+console.log("Task 9");
+let emparr9 = [];
+let var1 = 0;
+let var2 = 0;
+let alternator = 1;
+for (i=1; i<=10; i++){
+    emparr9.push(var1+var2);
+    if (alternator > 0){
+        var1 = i;
+    }
+    else if (alternator < 0){
+        var2 = i;
+    }
+    alternator = alternator * -1;
+}
+console.log(emparr9);
+
+// Task 10
+console.log("Task 10");
+let emparr10 = [];
+let arr = [3,1,4,1,5];
+for (i=-1; i>=-5; i--){
+    emparr10.push(arr.at(i));
+}
+console.log(emparr10);
