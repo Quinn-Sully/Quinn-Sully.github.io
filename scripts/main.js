@@ -82,7 +82,7 @@ for (i=1; i<=10; i++){
 console.log(emparr9);
 
 let emparr91 = [];
-for (i=0; i<=10; i++){
+for (i=0; i<=9; i++){
     if (i==0 || i==1){
         emparr91.push(i);
     }
@@ -90,7 +90,7 @@ for (i=0; i<=10; i++){
         emparr91.push(emparr91.at(-1) + emparr91.at(-2));
     }
 }
-console.log("new method: " + emparr91);
+console.log("Less variables method: " + emparr91);
 
 // Task 10
 console.log("Task 10------------------------------------------");
