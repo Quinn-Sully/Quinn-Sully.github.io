@@ -1,24 +1,24 @@
 // Task 1
-console.log("Task 1");
+console.log("Task 1------------------------------------------");
 for (let i=1; i<=10; i++){
     console.log(i + "squared is " + i*i);
 }
 
 // Task 2
-console.log("Task 2");
+console.log("Task 2------------------------------------------");
 for (let i=5; i>=1; i--){
     console.log(i);
 }
 console.log('Blastoff!')
 
 // Task 3
-console.log("Task 3");
+console.log("Task 3------------------------------------------");
 for (let i=1; i<=50; i=i+2){
     console.log(i);
 }
 
 // Task 4
-console.log("Task 4")
+console.log("Task 4------------------------------------------")
 console.log("gauss way: " + 100*(100+1)/2);
 console.log("for loop way: ");
 let total = 0;
@@ -28,7 +28,7 @@ for (let i=1; i<=100; i++){
 console.log(total);
 
 // Task 5
-console.log("Task 5");
+console.log("Task 5------------------------------------------");
 let factorial = 1;
 for (let i=1; i<=10; i++){
     factorial = i;
@@ -39,21 +39,21 @@ for (let i=1; i<=10; i++){
 }
 
 // Task 6
-console.log("Task 6");
+console.log("Task 6------------------------------------------");
 let arr = [3,1,4,1,5];
 for (i=0; i<arr.length; i++){
     console.log(arr[i]);
 }
 
 // Task 7
-console.log("Task 7");
+console.log("Task 7------------------------------------------");
 let arr7 = [3,1,4,1,5];
 for (i=1; i<=arr7.length; i++){
     console.log(arr7.at(-i));
 }
 
 // Task 8
-console.log("Task 8");
+console.log("Task 8------------------------------------------");
 let emparr8 = [];
 for (i=1; i<=10; i++){
     emparr8.push(i*i*i);
@@ -61,7 +61,7 @@ for (i=1; i<=10; i++){
 console.log(emparr8);
 
 // Task 9
-console.log("Task 9");
+console.log("Task 9------------------------------------------");
 let emparr9 = [];
 let var1 = 0;
 let var2 = 0;
@@ -83,17 +83,17 @@ console.log(emparr9);
 
 let emparr91 = [];
 for (i=0; i<=10; i++){
-    if (i=0 || i=1){
+    if (i==0 || i==1){
         emparr91.push(i);
     }
-    if (i>2) {
+    if (i>=2) {
         emparr91.push(emparr91.at(-1) + emparr91.at(-2));
     }
 }
 console.log("new method: " emparr91);
 
 // Task 10
-console.log("Task 10");
+console.log("Task 10------------------------------------------");
 let emparr10 = [];
 let arr10 = [3,1,4,1,5];
 for (i=-1; i>=-5; i--){
