@@ -64,7 +64,7 @@ console.log(emparr8);
 console.log("Task 9");
 let emparr9 = [];
 let var1 = 0;
-let var2 = 1;
+let var2 = 0;
 let alternator = 1;
 for (i=1; i<=10; i++){
     emparr9.push(var1+var2);
@@ -75,6 +75,9 @@ for (i=1; i<=10; i++){
         var2 = var1 + var2;
     }
     alternator = alternator * -1;
+    if (var1 + var2 = 0){
+        var1 = 1;
+    }
 }
 console.log(emparr9);
 
