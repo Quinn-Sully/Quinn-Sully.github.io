@@ -83,7 +83,7 @@ console.log(emparr9);
 
 let emparr91 = [];
 for (i=0; i<=9; i++){
-    if (i==0 || i==1){
+    if (i==0 || i==1){ //just a lil logic
         emparr91.push(i);
     }
     if (i>=2) {
