@@ -69,10 +69,10 @@ let alternator = 1;
 for (i=1; i<=10; i++){
     emparr9.push(var1+var2);
     if (alternator > 0){
-        var1 = var1 + i;
+        var1 = var1 + var2;
     }
     else if (alternator < 0){
-        var2 = var2 + i;
+        var2 = var1 + var2;
     }
     alternator = alternator * -1;
 }
