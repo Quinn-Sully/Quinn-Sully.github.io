@@ -47,9 +47,9 @@ for (i=0; i<arr.length; i++){
 
 // Task 7
 console.log("Task 7");
-let arr = [3,1,4,1,5];
-for (i=1; i<=arr.length; i++){
-    console.log(arr.at(-i));
+let arr7 = [3,1,4,1,5];
+for (i=1; i<=arr7.length; i++){
+    console.log(arr7.at(-i));
 }
 
 // Task 8
@@ -81,8 +81,8 @@ console.log(emparr9);
 // Task 10
 console.log("Task 10");
 let emparr10 = [];
-let arr = [3,1,4,1,5];
+let arr10 = [3,1,4,1,5];
 for (i=-1; i>=-5; i--){
-    emparr10.push(arr.at(i));
+    emparr10.push(arr10.at(i));
 }
 console.log(emparr10);
