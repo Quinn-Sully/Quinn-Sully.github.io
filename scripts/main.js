@@ -19,7 +19,7 @@ for (let i=1; i<=50; i=i+2){
 
 // Task 4
 console.log("Task 4------------------------------------------")
-console.log("gauss way: " + 100*(100+1)/2);
+console.log("gauss way: 100*(100+1)/2 =" + 100*(100+1)/2);
 console.log("for loop way: ");
 let total = 0;
 for (let i=1; i<=100; i++){
