@@ -75,7 +75,7 @@ for (i=1; i<=10; i++){
         var2 = var1 + var2;
     }
     alternator = alternator * -1;
-    if (var1 + var2 = 0){
+    if (var1 + var2 == 0){
         var1 = 1;
     }
 }
