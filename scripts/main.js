@@ -100,3 +100,15 @@ for (i=-1; i>=-5; i--){
     emparr10.push(arr10.at(i));
 }
 console.log(emparr10);
+
+
+// May 5 Tasks
+let colors = [red, orange, tan, silver, maroon, lime, olive];
+let unList = createElement(ul);
+let listItem = 0
+for (i = 0; i<colors.length; i++){
+    listItem = createElement(li).innerText(colors[i]);
+    listItem.style.color = colors[i];
+    unList.appendChild(listItem);
+}
+document.body.appendChild(unList);
