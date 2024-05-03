@@ -105,7 +105,7 @@ console.log(emparr10);
 // May 5 Tasks
 console.log("May 5 tasks loaded");
 
-let colors = [black, orange, tan, silver, maroon, lime, olive];
+let colors = ["black", "orange", "tan", "silver", "maroon", "lime", "olive"];
 let unList = createElement(ul);
 let listItem = 0
 for (i = 0; i<colors.length; i++){
