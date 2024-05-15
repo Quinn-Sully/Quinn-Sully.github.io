@@ -8,10 +8,20 @@ div {
 
 #list-and-pics {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 img {
   width: 100px;
+  height: auto;
+}
+
+#list-div {
+  width: 50%;
+  height: auto;
+}
+
+#gallery-by-links {
+  width: 50%;
   height: auto;
 }
