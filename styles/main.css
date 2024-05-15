@@ -5,3 +5,8 @@ span {
 div {
   border: red 1px solid;
 }
+
+#list-and-pics {
+  display: flex;
+  justify-content: space-around;
+}
