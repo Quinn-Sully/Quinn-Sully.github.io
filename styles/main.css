@@ -28,5 +28,5 @@ img {
 
 #page-list {
   display: flex;
-  
+  justify-content: space-around;
 }
