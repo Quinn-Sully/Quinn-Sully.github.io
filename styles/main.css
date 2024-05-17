@@ -25,3 +25,8 @@ img {
   width: 50%;
   height: auto;
 }
+
+#main-site-header {
+  display: flex;
+  justify-content: center;
+}
