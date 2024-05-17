@@ -26,7 +26,11 @@ img {
   height: auto;
 }
 
-#main-site-header {
+.centered {
   display: flex;
   justify-content: center;
+}
+
+#links-div {
+  margin-left: 100%;
 }
