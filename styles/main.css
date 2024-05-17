@@ -26,6 +26,7 @@ img {
   justify-content: center;
 }
 
-#links-div {
-  margin: 10px;
+#page-list {
+  display: flex;
+  
 }
