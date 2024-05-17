@@ -30,3 +30,22 @@ img {
   display: flex;
   justify-content: space-around;
 }
+
+.flex {
+  display: flex;
+}
+
+.carousel {
+  display: flex;
+  width: 100px;
+  border: 2px blue solid;
+}
+
+.carousel>img {
+  display: none;
+}
+
+.carousel>img.shown {
+  display: initial;
+}
+
