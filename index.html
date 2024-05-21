@@ -10,9 +10,9 @@
 
 <body>
     <div>
-        <div> <!--top of website-->
-            <h1 class="centered">The "D'Angelo Segment"</h1>
-            <img class="centered" src="images/artLOC1.jpg" alt="Image of D'Angelo">
+        <div class="flex flex-col"> <!--top of website-->
+            <h1>The "D'Angelo Segment"</h1>
+            <img id="banner" src="images/artLOC1.jpg" alt="Image of D'Angelo">
         </div>
         <ul id="page-list"> <!--list of pages-->
             <li><a>Our Team</a></li>
@@ -20,16 +20,22 @@
             <li><a>another one</a></li>
             <li><a>another one</a></li>
         </ul>
-        <div class="flex">
-            <img id="left-arrow" src="images/left-arrow.png" alt="left arrow" onclick="goLeft()">
-            <div class="carousel">
-                <img src="images/artLOC1.jpg" alt="" class="shown">
-                <img src="images/artLOC2.jpg" alt="">
-                <img src="images/artLOC3.jpg" alt="">
-                <img src="images/artLOC4.jpg" alt="">
-                <img src="images/artLOC1.jpg" alt="">
+        <div>
+            <div class="main-gallery">
+                <div>
+                    <img src="images/artLOC1.jpg" alt="">
+                    <img src="images/artLOC2.jpg" alt="">
+                    <img src="images/artLOC3.jpg" alt="">
+                    <img src="images/artLOC4.jpg" alt="">
+                    <img src="images/artLOC1.jpg" alt="">
+                </div>
             </div>
-            <img id="right-arrow" src="images/right-arrow.png" alt="right arrow" onclick="goRight()">
+            <div class="main-gallery">
+                <div></div>
+            </div>
+            <div class="main-gallery">
+                <div></div>
+            </div>
         </div>
     </div>
     <!--maybe include a footer with all the pages and/or credits here if time-->

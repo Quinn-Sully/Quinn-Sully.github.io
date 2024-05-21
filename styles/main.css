@@ -34,3 +34,24 @@ img {
 .flex {
   display: flex;
 }
+
+.flex-col {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#banner {
+  width: 1728px;
+  height: auto;
+}
+
+.main-gallery {
+  width: 25vw;
+}
+
+.main-gallery > div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
