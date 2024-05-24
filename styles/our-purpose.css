@@ -24,3 +24,9 @@ span {
     flex-direction: column;
     align-items: center;
   }
+
+#banner {
+  width: 100vw;
+  height: 600px;
+  object-fit: cover;
+}

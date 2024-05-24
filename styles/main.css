@@ -37,8 +37,8 @@ div {
 
 
 #banner {
-  width: 1728px;
-  height: 500px;
+  width: 100vw;
+  height: 600px;
   object-fit: cover;
 }
 
