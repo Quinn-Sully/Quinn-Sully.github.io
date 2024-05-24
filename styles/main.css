@@ -6,11 +6,6 @@ div {
   border: red 1px solid;
 }
 
-img {
-  width: 100px;
-  height: auto;
-}
-
 #list-div {
   width: 50%;
   height: auto;
@@ -43,7 +38,8 @@ img {
 
 #banner {
   width: 1728px;
-  height: auto;
+  height: 500px;
+  object-fit: cover;
 }
 
 .main-gallery {
@@ -54,4 +50,13 @@ img {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+
+.main-gallery > div > img {
+  width: 25vw;
+  height: auto;
+}
+
+#gallery-panel{
+  display:flex;
 }

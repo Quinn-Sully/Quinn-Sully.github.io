@@ -6,6 +6,11 @@ span {
     border: red 1px solid;
   }
 
+  #page-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
 .centered {
     display: flex;
     justify-content: center;
@@ -20,4 +25,12 @@ span {
     align-items: center;
   }
 
-  
+.profile-picture{
+  width: 300px;
+  height: auto;
+}
+
+.profile{
+  display: flex;
+  margin: 20px;
+}
