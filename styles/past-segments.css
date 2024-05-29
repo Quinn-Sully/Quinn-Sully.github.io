@@ -36,3 +36,20 @@ div {
 .right{
     flex-direction: row-reverse;
 }
+
+iframe {
+  width: 60vw;
+  height: 33.75vw;
+}
+
+div > div > h2 {
+  text-align: center;
+}
+
+div > div > h3 {
+  text-align: center;
+}
+
+div > div > p {
+  text-align: center;
+}
