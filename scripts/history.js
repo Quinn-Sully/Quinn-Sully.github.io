@@ -4,7 +4,7 @@ let button2022 = document.getElementById("2022Button")
 let button2023 = document.getElementById("2023Button")
 
 function changeBodyTo2021(){
-    historyContent.innerHTML = "<div><strong>2021-2022</strong><p>This is the content for 2021-2022</p></div>";
+    historyContent.innerHTML = "<div><strong>2021-2022</strong><p>In their first year of Redwood TV as sophomores, D'Angelo and Quinn made frequent episodes often with experimental techniques.</p></div>";
 }
 
 function changeBodyTo2022(){
