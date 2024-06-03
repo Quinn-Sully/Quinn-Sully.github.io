@@ -1,0 +1,71 @@
+div {
+    border: 1px red solid;
+    background-color: #ffdbd9;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatelse {
+    animation: spin-spinner 1.5s infinite linear;
+}
+
+@keyframes spin-spinner {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+ul a {
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+    color:#1b9400;
+    background-color: #ffdbd9;
+}
+
+ul a:hover {
+    color: white;
+    background-color: #1b9400;
+}
+
+p {
+    font-family: trebuchet MS;
+}
+
+h1 {
+    font-family: trebuchet MS;
+}
+
+h2 {
+    font-family: trebuchet MS;
+}
+
+h3 {
+    font-family: trebuchet MS;
+}
+
+a {
+    font-family: trebuchet MS;
+}
+
+button {
+    font-family: trebuchet MS;
+}
+
+body{
+    background-color: #5fb84b;
+}
