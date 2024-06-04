@@ -1,3 +1,5 @@
+/*This is the CSS that is applied to all pages*/
+
 div {
     border: 1px red solid;
     background-color: #ffdbd9;
@@ -33,7 +35,7 @@ div {
 ul a {
     transition: color 0.7s;
     transition: background-color 0.7s;
-    color:#1b9400;
+    color: #1b9400;
     background-color: #ffdbd9;
 }
 
@@ -60,6 +62,7 @@ h3 {
 
 a {
     font-family: trebuchet MS;
+    color: #1b9400;
 }
 
 button {

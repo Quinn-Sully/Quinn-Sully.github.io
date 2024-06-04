@@ -1,3 +1,5 @@
+/*For the history page*/
+
 span {
   border: tan 3px dashed;
 }
@@ -31,7 +33,19 @@ div {
   object-fit: cover;
 }
 
-#history-buttons {
+#history-buttons-div {
   display: flex;
   flex-direction: column;
+}
+
+.history-buttons {
+  line-height: 2.5;
+  color: black;
+  border-radius: 10px;
+  background-color: #cdcdcd;
+  transition: background-color 0.7s;
+}
+
+.history-buttons:hover {
+  background-color: #898989;
 }

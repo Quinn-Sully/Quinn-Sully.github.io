@@ -1,19 +1,31 @@
+//This is where the history buttons are handled
+
+//Setup for where history content appears and which button is which
+
 let historyContent = document.getElementById("history-content");
 let button2021 = document.getElementById("2021Button");
 let button2022 = document.getElementById("2022Button")
 let button2023 = document.getElementById("2023Button")
 
+//Changes the history-content div to display the 2021-2022 information
+
 function changeBodyTo2021(){
     historyContent.innerHTML = "<div><strong>2021-2022</strong><p>In their first year of Redwood TV as sophomores, D'Angelo and Quinn made frequent episodes often with experimental techniques.</p></div>";
 }
+
+//Changes the history-content div to display the 2022-2023 information
 
 function changeBodyTo2022(){
     historyContent.innerHTML = "<div><strong>2022-2023</strong><p>This is the content for 2022-2023</p></div>";
 }
 
+//Changes the history-content div to display the 2023-2024 information
+
 function changeBodyTo2023(){
     historyContent.innerHTML = "<div><strong>2023-2024</strong><p>This is the content for 2023-2024</p></div>";
 }
+
+//Here are the event listeners that cause the buttons to do what they need to do
 
 button2021.addEventListener("click", changeBodyTo2021);
 button2022.addEventListener("click", changeBodyTo2022);
