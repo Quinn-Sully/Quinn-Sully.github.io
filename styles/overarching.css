@@ -19,6 +19,26 @@ div {
     align-items: center;
 }
 
+.moving-rtv-logo {
+    width: 40px;
+    height: auto;
+    animation: bounce-logo 1.3s infinite ease-in-out;
+}
+
+@keyframes bounce-logo {
+    0% {
+        margin-left: 200px;
+    }
+
+    50%{
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 200px;
+    }
+}
+
 .whatelse {
     animation: spin-spinner 1.5s infinite linear;
 }
