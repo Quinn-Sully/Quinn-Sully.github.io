@@ -6,9 +6,15 @@
 }
 
 .profile-picture{
-  width: 800px;
-  height: 800px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
+}
+
+#quinn-profile {
+  width: 500px;
+  height: auto;
+  object-fit: stretch;
 }
 
 .profile{
@@ -22,6 +28,14 @@
   object-fit: cover;
 }
 
-.profile > div > p{
+.profile > div > p {
+  text-align: center;
+}
+
+.profile > div > h2 {
+  text-align: center;
+}
+
+.profile > div > h3 {
   text-align: center;
 }

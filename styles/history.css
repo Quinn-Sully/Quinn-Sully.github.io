@@ -43,9 +43,17 @@ div {
   color: black;
   border-radius: 10px;
   background-color: #cdcdcd;
-  transition: background-color 0.7s;
+  scale: 1;
+  transition: scale 0.8s;
 }
 
 .history-buttons:hover {
   background-color: #898989;
+  border-radius: 20px;
+  scale: 0.95;
+}
+
+.history-buttons:active {
+  background-color: #676767;
+  scale: 0.9;
 }

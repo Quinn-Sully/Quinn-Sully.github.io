@@ -22,12 +22,12 @@ div {
 .moving-rtv-logo {
     width: 40px;
     height: auto;
-    animation: bounce-logo 1.3s infinite ease-in-out;
+    animation: bounce-logo 1.3s infinite linear;
 }
 
 @keyframes bounce-logo {
     0% {
-        margin-left: 200px;
+        margin-left: 95vw;
     }
 
     50%{
@@ -35,20 +35,7 @@ div {
     }
 
     100% {
-        margin-left: 200px;
-    }
-}
-
-.whatelse {
-    animation: spin-spinner 1.5s infinite linear;
-}
-
-@keyframes spin-spinner {
-    0% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(0deg);
+        margin-left: 95vw;
     }
 }
 
@@ -69,15 +56,18 @@ p {
 }
 
 h1 {
-    font-family: trebuchet MS;
+    font-family: fantasy;
+    filter: drop-shadow(0px 0px 15px #4c923c)
 }
 
 h2 {
     font-family: trebuchet MS;
+    color: #343434;
 }
 
 h3 {
     font-family: trebuchet MS;
+    color: #343434;
 }
 
 a {
