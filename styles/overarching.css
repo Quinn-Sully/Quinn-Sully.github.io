@@ -1,7 +1,7 @@
 /*This is the CSS that is applied to all pages*/
 
-div {
-    border: 1px red solid;
+div:not(.no-border) {
+    border: 1px rgb(177, 25, 25) dashed;
     background-color: #ffdbd9;
 }
 

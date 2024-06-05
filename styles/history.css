@@ -1,13 +1,5 @@
 /*For the history page*/
 
-span {
-  border: tan 3px dashed;
-}
-  
-div {
-  border: red 1px solid;
-}
-
 #page-list {
   display: flex;
   justify-content: space-around;
