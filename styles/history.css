@@ -1,10 +1,5 @@
 /*For the history page*/
 
-#page-list {
-  display: flex;
-  justify-content: space-around;
-}
-
 .centered {
   display: flex;
   justify-content: center;

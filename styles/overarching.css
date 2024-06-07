@@ -10,6 +10,11 @@ body > div {
     background-color: #ffdbd9
 }
 
+#page-list {
+    display: flex;
+    justify-content: space-around;
+}
+
 .centered {
     display: flex;
     justify-content: center;

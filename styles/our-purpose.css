@@ -1,9 +1,5 @@
 /*For the Our Purpose page*/
 
-#page-list {
-  display: flex;
-  justify-content: space-around;
-}
 #banner {
   width: 100vw;
   height: 600px;
