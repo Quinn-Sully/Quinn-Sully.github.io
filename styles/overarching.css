@@ -1,8 +1,13 @@
 /*This is the CSS that is applied to all pages*/
 
-div:not(.no-border) {
+/*div:not(.no-border) {
     border: 1px rgb(177, 25, 25) dashed;
     background-color: #ffdbd9;
+} */
+
+body > div {
+    border: 1px rgb(177, 25, 25) dashed;
+    background-color: #ffdbd9
 }
 
 .centered {
@@ -22,7 +27,7 @@ div:not(.no-border) {
 .moving-rtv-logo {
     width: 40px;
     height: auto;
-    animation: bounce-logo 1.3s infinite linear;
+    animation: bounce-logo 8s infinite linear;
 }
 
 @keyframes bounce-logo {
